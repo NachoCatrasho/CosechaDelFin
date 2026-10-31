@@ -1,0 +1,45 @@
+import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+/* ========== Reinicio de estilos ========== */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 2em;
+   font-family: "Roboto", sans-serif, "consolas", "Curier New", monospace;
+   color: #174b58;
+   line-height: 1.6;
+   min-height: 100vh;
+}
+
+main {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+/* ========== Estilos tipográficos ========== */
+
+h1 {
+   text-align: center;
+   margin-bottom: 0.7em;
+   font-size: 2.7em;
+   color: #204051;
+   font-family: "Courier New", Courier, monospace;
+   letter-spacing: 0.5em;
+}
+
+h2 {
+   /*=== Titulos de capitulos ===*/
+
+   text-align: end;
+   color: #2a5c6e;
+   margin-bottom: 0.8em;
+   font-size: 1.5em;
+   font-weight: normal;
+   font-style: italic;
+}
