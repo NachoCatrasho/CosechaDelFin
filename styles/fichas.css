@@ -13,7 +13,8 @@ import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,30
 
 /* ========== VENTANA LUCAS ========== */
 
-.fichaL p{
+.fichaL,
+.fichaL p {
    background: linear-gradient(145deg, a5bb8a, #58614e);
    color: #294416;
    font-family: 'Shadows Into Light', cursive;
@@ -21,3 +22,61 @@ import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,30
    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
+.lucas .subtitulo {
+   color: #2bff00;
+   border-bottom: 2px solid #ad668a;
+   font-size: 1.8em;
+}
+
+/* ========== COMPONENTES INTERNOS =========== */
+
+.datos,
+.stats,
+.primarias {
+   margin: 15px 0;
+   padding: 15px;
+   border-radius: 5px;
+   background: rgba(0, 0, 0, 0.1);
+}
+
+.datos {
+   font-size: 1.2em;
+   margin-bottom: 20px;
+}
+
+.stats {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+}
+
+.stats p {
+   margin: 5px 0;
+   padding: 5px 10px;
+}
+
+.stats p:nth-child(1) {
+   color: #c02c2c;
+}
+
+.stats p:nth-child(2) {
+   color: #59168f;
+}
+
+.stats p:nth-child(3) {
+   color: #4ecdc4;
+}
+
+.stats p:nth-child(4) {
+   color: #ffe56d;
+}
+
+.stats p:nth-child(5) {
+   color: #ff9e6d;
+}
+
+.primarias {
+   margin-top: 20px;
+   padding-top: 15px;
+   border-top: 1px dashed rgba(255, 255, 255, 0.3);
+}
