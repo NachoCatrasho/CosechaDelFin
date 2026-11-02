@@ -20,12 +20,12 @@
    color: #294416;
    font-family: 'Shadows Into Light', cursive;
    border: 5px double #7a8d60;
-   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+   box-shadow: 1 5px 15px rgba(122, 141, 107, 0.4);
 }
 
 .lucas .subtitulo {
    color: #2bff00;
-   border-bottom: 2px solid #ad668a;
+   border-bottom: 2px solid #ad768a;
    font-size: 1.8em;
 }
 
