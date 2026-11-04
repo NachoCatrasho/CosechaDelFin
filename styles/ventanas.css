@@ -60,7 +60,7 @@
 /* ========== ADVERTENCIAS ========== */
 
 .advertencia {
-   animation: pulso 2s infinte;
+   animation: pulso 2s infinite;
    background: linear-gradient(135deg, rgba(255, 0, 0, 0.4), rgba(139, 0, 0, 0.8));
    border: 2px solid #f00;
    box-shadow: 0 0 15px rgba(255, 69, 0, 0.7);
