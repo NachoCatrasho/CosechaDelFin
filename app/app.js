@@ -9,7 +9,7 @@ const elementosVentana = document.querySelectorAll('.ventana, .advertencia, .ven
     observador.observe(el);
 });
 
-function togglewin(id){
+function toggleWin(id){
    const el = document.getElementById(id);
    if(el){
       el.style.display = (el.style.display===none||el.style.display==='')? 'block':'none';

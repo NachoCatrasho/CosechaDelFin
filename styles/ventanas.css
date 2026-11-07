@@ -28,7 +28,7 @@
    border-top: var(--bordeSupVentana);
    border-right: var(--bordeSupVentana);
    border-bottom: var(--bordeInfVentana);
-   border-left: var(--bordeSupVentana);
+   border-left: var(--bordeInfVentana);
    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
    backdrop-filter: blur(2px);
    line-height: 1.35;
