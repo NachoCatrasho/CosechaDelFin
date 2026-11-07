@@ -2,6 +2,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
 
+/* ========== VARIABLES ========== */
+
+:root{
+   --color: #7a8d60;
+}
+
 /* ========== POR DEFECTO ========== */
 
 #ficha {
@@ -12,22 +18,39 @@
    display: block;
 }
 
+summary {
+   line-height: 1.5;
+   list-style-type: none;
+}
+
 /* ========== VENTANA LUCAS ========== */
 
 .fichaL,
 .fichaL p {
    background: linear-gradient(145deg, #a5bb8a, #58614e);
+   padding: 5px;
    color: #294416;
-   font-family: 'Shadows Into Light', cursive;
-   border: 5px double #7a8d60;
+   font-family: 'Shadows Into Light';
+   border-top: 2px solid #7a8d60;
+   border-right: 5px double #7a8d60;
+   border-bottom: 5px double #7a8d60;
+   border-left: 2px solid #7a8d60;
    box-shadow: 0 5px 15px rgba(122, 141, 107, 0.4);
 }
 
+.fichaL .subtitulo,
 .subtitulo {
    color: #2bff00;
    margin-bottom: 5px;
    border-bottom: 2px solid #ad768a;
    font-size: 1.8em;
+}
+
+.fichaL details p{
+   margin-left:4px;
+   margin-right:4px;
+   padding: 5px;
+   text-align: left;
 }
 
 /* ========== COMPONENTES INTERNOS =========== */
@@ -38,7 +61,7 @@
    margin: 15px 0;
    padding: 15px;
    border-radius: 5px;
-   background: rgba(0, 0, 0, 0.1);
+   background: rgba(0, 0, 0, 0.07);
 }
 
 .datos {
@@ -80,5 +103,5 @@
 .primarias {
    margin-top: 20px;
    padding-top: 15px;
-   border-top: 1px dashed rgba(255, 255, 255, 0.3);
+   border-top: 1px dashed rgba(255, 255, 255, 0.07);
 }
