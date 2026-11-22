@@ -4,7 +4,7 @@
 
 /* ========== VARIABLES ========== */
 
-:root{
+:root {
    --color: #7a8d60;
 }
 
@@ -46,9 +46,9 @@ summary {
    font-size: 1.8em;
 }
 
-.fichaL details p{
-   margin-left:4px;
-   margin-right:4px;
+.fichaL details p {
+   margin-left: 4px;
+   margin-right: 4px;
    padding: 5px;
    text-align: left;
 }
@@ -57,7 +57,9 @@ summary {
 
 .datos,
 .stats,
-.primarias {
+.primarias,
+.clase,
+.jugador {
    margin: 15px 0;
    padding: 15px;
    border-radius: 5px;
@@ -100,7 +102,9 @@ summary {
    color: #ff9e6d;
 }
 
-.primarias {
+.primarias,
+.clase,
+.jugador {
    margin-top: 20px;
    padding-top: 15px;
    border-top: 1px dashed rgba(255, 255, 255, 0.07);

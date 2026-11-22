@@ -13,7 +13,7 @@ body {
    margin: 0;
    padding: 2em;
    font-family: "Roboto", sans-serif, "consolas", "Curier New", monospace;
-   color: #174b58;
+   color: #0f6c83;
    line-height: 1.6;
    min-height: 100vh;
 }
@@ -40,6 +40,7 @@ h2 {
    text-align: end;
    color: #2a5c6e;
    margin-bottom: 0.8em;
+   margin-right: 7px;
    font-size: 1.5em;
    font-weight: normal;
    font-style: italic;
@@ -86,7 +87,7 @@ article {
 ul {
    list-style-type: none;
    padding: 0;
-   margin: 0;
+   margin: 18px;
 }
 
 ol {
@@ -96,7 +97,8 @@ ol {
 }
 
 li {
-   margin-bottom: 12px;
+   margin-bottom: 6px;
+   margin-right: 3px;
    font-size: 1.1rem;
    line-height: 1.4;
    text-align: left;
@@ -135,11 +137,15 @@ button {
 
 /* ========== Enlaces ========== */
 
+nav {
+   text-align: center;
+}
+
 a {
    text-decoration: none;
    font-weight: bold;
    display: inline-block;
-   margin: 20px 0;
+   margin: 15px 0;
    padding: 10px 35px;
    transition: 0.5s;
    color: #07a4e2f8;

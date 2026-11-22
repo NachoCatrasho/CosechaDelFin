@@ -26,9 +26,9 @@
 .ventana {
    background: linear-gradient(135deg, rgba(10, 20, 30, 0.85), rgba(2, 21, 43, 0.85));
    border-top: var(--bordeSupVentana);
-   border-right: var(--bordeSupVentana);
+   border-right: var(--bordeInfVentana);
    border-bottom: var(--bordeInfVentana);
-   border-left: var(--bordeInfVentana);
+   border-left: var(--bordeSupVentana);
    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
    backdrop-filter: blur(2px);
    line-height: 1.35;
